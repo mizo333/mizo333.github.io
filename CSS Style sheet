@@ -1,0 +1,71 @@
+body, html{
+	min-height:100%; 
+	padding:0; 
+	margin:0;
+	border:50;
+}
+
+#header{
+	position:fixed; 
+	top:0px;
+	float:left;
+	width:100%;
+	height:60px; 
+	
+	color:Yellow;
+	text-align:center;
+	background-color:Black;
+}
+
+#content, #myStyle{
+	position:relative; 
+	top:45px;
+
+	width:100%;
+	height:60px; 
+	
+	text-align:center;
+	color:white;
+	background-color:Yellow;
+}
+
+
+#footer{ 
+	position:absolute; 
+	top:120px;
+
+	width:100%;
+	height:60px; 
+	
+	text-align:center;
+	color:white;
+	background-color:Red;
+}
+
+
+h1 {font-size: 30px; }
+      “h1” = selector
+     “font-size” = property
+     “30px” = value
+	 font-family:verdana;
+	 
+   p.capitalize {
+    text-transform: capitalize;
+}
+   
+ p{
+      
+	  
+	  
+   }
+   
+   p{
+	   font-family:"Times New Roman", Times, serif;
+	   color:blue;
+	   
+}
+p.uppercase {
+    text-transform: uppercase;
+}
+
+   
